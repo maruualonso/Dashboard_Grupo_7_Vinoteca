@@ -1,0 +1,27 @@
+
+.bgcat { 
+    background-color: #b22222;
+    text-align: center;
+    border: 1px solid #b22222;
+}
+.color-pp {
+    background-color:#adacac;
+    background-image: linear-gradient(180deg,#b22222) 10%, #b22222 100%;
+
+}
+
+.color-nav-bar {
+    
+    background-color:#adacac;
+
+}
+
+.color-back-pp {
+    background-color: rgba(0,0,0,0); 
+}
+
+.title-sp {
+    color: #292929;
+    font-family: "Roboto", Sans-serif;
+}
+
