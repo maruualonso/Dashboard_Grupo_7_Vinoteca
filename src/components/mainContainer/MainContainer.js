@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductsCount from './Products'
 import AmountCategories from './AmountCategories';
-import LastProduct from './LastProduct';
 import ListProductsHook from './ListProductsHook';
 import UsersHook from './UsersHook';
 import ProductsCategoriesHook from './ProductCategoriesHook';
@@ -24,7 +23,7 @@ function MainContainer() {
                     
                     <ListProductsHook />                    
                     <ProductsCategoriesHook />
-                    <LastProduct />
+                    
                 
                 </div>
             </div>

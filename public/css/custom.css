@@ -1,18 +1,18 @@
 
 .bgcat { 
-    background-color: #b22222;
+    background-color: coral;
     text-align: center;
-    border: 1px solid #b22222;
+    border: 1px solid coral;
 }
 .color-pp {
-    background-color:#adacac;
-    background-image: linear-gradient(180deg,#b22222) 10%, #b22222 100%;
+    background-color:#212121;
+    background-image: linear-gradient(180deg, coral) 10%, coral 100%;
 
 }
 
 .color-nav-bar {
     
-    background-color:#adacac;
+    background-color:#212121;
 
 }
 

@@ -8,7 +8,7 @@ function ListProductsHook() {
 
 
     useEffect(() => {
-      fetch("/api/products") //poner api 
+        fetch("/api/products")  
         .then(response => {
             return response.json();
         })
@@ -33,11 +33,10 @@ function ListProductsHook() {
                 </div>
                 <div className="card-body">
                     <div className="row">
-                    {products.map(product => (
+                    {products.map((product) => (
                             <div className="col-lg-6 mb-4">
                             <div className="card bg-info text-white shadow">
-                                <div className="card-body bgcat" key={product.name + product.id}>Producto: {product.name}
-                                <div><img className="img-product" src={product.img} alt="" /></div>               
+                                <div className="card-body bgcat" key={product.name + product.id}>Producto: {product.name}                                             
                                 </div>
                             </div>  
                         </div>
